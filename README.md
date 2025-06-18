@@ -12,10 +12,9 @@ Para ajudar o leitor a navegar, explicamos como o projeto está estruturado:
 * **Base** is in the [src folder](src/).
 * Report chapters are in [doc folder](doc/).
 
-## Gallery 1
+## Gallery 
 
-_Please provide a galery of the final result, with small images_
-A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull to organize the images.
+ [Galley](https://www.markdownguide.org/extended-syntax/#tables) 
 
 ## Technologies
 
