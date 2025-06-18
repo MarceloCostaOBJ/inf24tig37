@@ -9,12 +9,12 @@ Este repositório documenta o desenvolvimento do projeto Eduspark, uma simulaç�
 ## Repository organization
 
 Para ajudar o leitor a navegar, explicamos como o projeto está estruturado:
-* **Base** is in the [src folder](src/).
+* **Build** is in the [src folder](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Build).
 * Report chapters are in [doc folder](doc/).
 
 ## Gallery 
 
- [Galley](https://www.markdownguide.org/extended-syntax/#tables) 
+ [Galley](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery) 
 
 ## Technologies
 
@@ -22,28 +22,18 @@ _Indicate the technologies you have used in this assignment. Please provide link
 * XML
 * HTML5 + CSS3
 
-### Frameworks and Libraries
-
-_Did you use any aditional libraries? Describe them here._
-* Docker
-* Multipass
-* NodeJS
-* JQuery
-* Laravel
-* Bootstrap
 
 ## Report
-_Please add at least on section (a file) per Chapter. But you can add more._
 
 ### Project presentation
 * Chapter 1: [Project presentation](doc/c1.md)
 ### User Interface 
 * Chapter 2: [User Interface Prototype and Sitemap](doc/c2.md)
 ### Product
-* Chapter 3: [Product](doc/c3.md)
+* Chapter 3: [Product](https://inf24tig37.netlify.app/)
 ### Presentation
 * Chapter 4: [Presentation](doc/c4.md)
 
 ## Team
-* Marco Amaro Oliveira [@MarcoOliveira](https://github.com/marcoamarooliveira)
+* Marcelo Pinto [@@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ/))
 * Other team members
