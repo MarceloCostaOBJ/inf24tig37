@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+    <!-- Plan 1 -->
+    <plan>
+        <name>SIMPLE</name>
+        <price>10</price>
+        <currency>EUR</currency>
+        <description>The SIMPLE Plan is perfect for beginners who are taking their first steps into the world of online education. Ideal for those seeking a simple and accessible introduction, with explanatory videos and quizzes to test their knowledge.</description>
+        <learning-approach>Self-paced learning with videos and interactive quizzes.</learning-approach>
+        <features>
+            <feature>Access to introductory videos</feature>
+            <feature>Interactive quizzes</feature>
+            <feature>Digital certificates</feature>
+            <feature>Community support via forums</feature>
+        </features>
+        <student-feedback>
+            <feedback>
+                <student-name>Ana Oliveira</student-name>
+                <review>"Great introduction to online learning! The videos were well explained."</review>
+                <rating>4</rating>
+            </feedback>
+            <feedback>
+                <student-name>João Silva</student-name>
+                <review>"The quizzes were very helpful to test my knowledge. Highly recommend!"</review>
+                <rating>4</rating>
+            </feedback>
+        </student-feedback>
+    </plan>
+
+    <!-- Plan 2 -->
+    <plan>
+        <name>PLUS</name>
+        <price>20</price>
+        <currency>EUR</currency>
+        <description>The PLUS Plan is ideal for those who already have some experience in online learning and are looking for a more robust plan, with live classes, premium content, and priority support.</description>
+        <learning-approach>Live sessions with instructors and premium content.</learning-approach>
+        <features>
+            <feature>Everything from the SIMPLE Plan</feature>
+            <feature>Live sessions with instructors</feature>
+            <feature>Premium content</feature>
+            <feature>Priority support</feature>
+            <feature>Interactive group discussions</feature>
+        </features>
+        <student-feedback>
+            <feedback>
+                <student-name>Maria Costa</student-name>
+                <review>"The live sessions were amazing. I learned a lot from the discussions."</review>
+                <rating>5</rating>
+            </feedback>
+            <feedback>
+                <student-name>Pedro Santos</student-name>
+                <review>"Priority support is excellent! I always received quick responses."</review>
+                <rating>5</rating>
+            </feedback>
+        </student-feedback>
+    </plan>
+
+    <!-- Plan 3 -->
+    <plan>
+        <name>NORMAL</name>
+        <price>15</price>
+        <currency>EUR</currency>
+        <description>The NORMAL Plan offers a perfect balance between self-paced learning and personalized guidance, with mentor feedback and monthly webinars.</description>
+        <learning-approach>Self-paced learning with personalized mentor feedback and webinars.</learning-approach>
+        <features>
+            <feature>Full access to all courses</feature>
+            <feature>Personalized feedback from mentors</feature>
+            <feature>Support group chats</feature>
+            <feature>Monthly webinars with experts</feature>
+        </features>
+        <student-feedback>
+            <feedback>
+                <student-name>Rita Fernandes</student-name>
+                <review>"The mentorship helped me improve a lot. I recommend this plan!"</review>
+                <rating>4</rating>
+            </feedback>
+            <feedback>
+                <student-name>Lucas Pereira</student-name>
+                <review>"The monthly webinars were very valuable. I learned a lot from the experts."</review>
+                <rating>5</rating>
+            </feedback>
+        </student-feedback>
+    </plan>
+</plans>

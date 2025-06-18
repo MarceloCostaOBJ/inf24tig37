@@ -1,0 +1,269 @@
+/* ==============================
+   Import Google Font Montserrat
+   ============================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+
+/* ==============================
+   Variables & Resets
+   ============================== */
+:root {
+  --primary-font: 'Montserrat', sans-serif; /* Fonte principal */
+  --fallback-font: 'Arial', sans-serif;     /* Fonte fallback */
+  --purple: #7c3aed;
+  --light-purple: #f3e8ff;
+  --dark: #111827;
+  --gray: #6b7280;
+  --spacing: 1rem;
+  --container-max: 1200px;
+  --header-height: 4rem;
+  --header-max-width: 80%;
+  --header-padding: 0 2rem;
+}
+
+* {
+  font-family: var(--primary-font);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--primary-font), var(--fallback-font);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark);
+  line-height: 1.5;
+}
+body.about-page {
+  background: url('Back_MainTOTAL.jpg') no-repeat center/cover;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+  color: #111827;
+  line-height: 1.6;
+}
+
+/* ==============================
+   Utility & Layout
+   ============================== */
+.container {
+  width: 90%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.flex            { display: flex; }
+.items-center    { align-items: center; }
+.items-start     { align-items: flex-start; }
+.justify-between { justify-content: space-between; }
+.justify-center  { justify-content: center; }
+.gap-4           { gap: 1rem; }
+
+p + p {
+  margin-top: 1.5rem;
+}
+
+/* ==============================
+   Cabeçalho Moderno – EDUSPARK
+   ============================== */
+.modern-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem 0;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-area {
+  flex: 1;
+}
+
+.brand-name {
+  font-size: 1.75rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark); /* texto escuro */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.brand-name:hover {
+  color: var(--purple);
+}
+
+.nav-area {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--dark); /* texto escuro */
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: var(--purple);
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* ==============================
+   Fim do Cabeçalho
+   ============================== */
+
+
+/* ==============================
+   FAQ Page Styles
+============================== */
+.faq-secao {
+  background:  #eccbfe;
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.faq-secao h1 {
+  font-family: 'Montserrat', sans-serif !important; /* Usando !important para garantir que a fonte seja aplicada */
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.faq-secao h2, .faq-secao h3 {
+  color: #333;
+  margin-top: 1.5rem;
+}
+
+/* Table Styling */
+.faq-secao table {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.faq-secao table, .faq-secao th, .faq-secao td {
+  border: 1px solid #ddd;
+}
+
+.faq-secao th, .faq-secao td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.faq-secao th {
+  background-color: #7c3aed;
+  color: white;
+}
+
+.faq-secao tfoot {
+  background-color: #f1f1f1;
+}
+
+.faq-secao tfoot td {
+  font-style: italic;
+  color: #661b1b;
+}
+
+/* Nested List Styling */
+.faq-secao ul {
+  padding-left: 2rem;
+}
+
+.faq-secao ul li {
+  margin-bottom: 0.5rem;
+}
+
+.faq-secao ul li ul {
+  margin-top: 0.5rem;
+}
+
+.faq-secao em {
+  font-style: italic;
+}
+
+.faq-secao strong {
+  font-weight: bold;
+}
+
+.faq-secao mark {
+  background-color: yellow;
+}
+
+/* Info Box Styling */
+.info-box {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top:0.5rem;
+}
+
+.info-box h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.info-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.info-box ul li {
+  margin-bottom: 0.5rem;
+}
+
+.info-box ul li ul {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+
+.info-box p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
