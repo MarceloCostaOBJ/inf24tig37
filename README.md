@@ -13,7 +13,7 @@ Para ajudar o leitor a navegar, explicamos como o projeto está estruturado:
 
 ## Gallery 
 
- [Galley](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery) 
+ [Galley](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/) 
 
 ## Technologies
 
@@ -54,16 +54,12 @@ Optámos por **não incluir JavaScript** para manipulação dinâmica do DOM, fo
 ### Sketches e Wireframes
 Durante a fase de planeamento, desenvolvemos os sketches e o sitemap da aplicação, que serviram de base à construção da interface final. As imagens encontram-se organizadas numa galeria e estão disponíveis nos seguintes ficheiros:
 
-- [Sketch da página Home](LINK_PARA_SKETCH_HOME)
-- [Sketch da página About](LINK_PARA_SKETCH_ABOUT)
-- [Sketch da página Prices](LINK_PARA_SKETCH_PRICES)
-- [Sketch da página FAQ](LINK_PARA_SKETCH_FAQ)
-- [Sitemap completo do projeto](LINK_PARA_SITEMAP)
+- [Sketch da páginas Home](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/SKETCH)
 
 ### Galeria do Resultado Final
 A galeria com capturas das páginas finais encontra-se disponível neste link:
 
-- [Galeria de Capturas](LINK_PARA_GALERIA_FINAL)
+- [Galeria de Capturas](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/Print)
 
 ### Ilustrações
 As ilustrações utilizadas na secção inicial e em algumas áreas visuais do site foram retiradas da plataforma gratuita:  
@@ -79,7 +75,7 @@ O código-fonte do projeto encontra-se disponível em:
 
 ### Ligação para o Site no Netlify
 O site encontra-se online em:  
-🔗 [https://NOME_DO_SITE.netlify.app](https://NOME_DO_SITE.netlify.app)
+🔗 [https://inf24tig37.netlify.app/](https://inf24tig37.netlify.app/)
 
 ### Instalação e Configuração
 
@@ -109,6 +105,9 @@ Foram utilizados os validadores da W3C:
 
 - [W3C HTML Validator](https://validator.w3.org/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+#### Resultado da validação CSS:
+Não foram detetados **erros**.
 
 #### Resultado da validação CSS:
 Não foram detetados **erros críticos**, apenas alguns **alertas**:
@@ -143,7 +142,7 @@ Não foram detetados **erros críticos**, apenas alguns **alertas**:
 
 ---
 
-## 4. Efeito Visual de Glassmorphism com AI
+Efeito Visual de Glassmorphism com AI
 
 Para simular o efeito visual conhecido como **glassmorphism** (vidro desfocado), recorremos a ferramentas de design com suporte a **inteligência artificial (AI)** que nos ajudaram a gerar rapidamente o código CSS necessário, com base em boas práticas modernas de UI.
 
@@ -155,11 +154,7 @@ A geração do estilo foi realizada com apoio de ferramentas como:
 - https://getcssscan.com/css-glassmorphism
 
 O código resultante foi aplicado a elementos como o **cabeçalho fixo** (`.modern-header`), o **painel de estatísticas** (`about.html`) e os **cartões de testemunhos**.
-
-```css
-backdrop-filter: blur(10px);
--webkit-backdrop-filter: blur(10px);
-background-color: rgba(255, 255, 255, 0.1);
+Além disso, para a implementação das **animações em CSS** e do sistema de **envio de emails via Formspree**, também foram consultadas fontes online para assegurar a correta integração e compatibilidade com navegadores modernos.
 
 ## Team
 * Marcelo Pinto [@@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ)
