@@ -1,6 +1,6 @@
 # EDUSPARK
 
-Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : [@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ/), [add others].
+Developed by Group inf24tig37 : [@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ/), [@GandalfTheTech](https://github.com/GandalfTheTech) AKA Carlos Miguel Castro 
 
 ## Short theme description
 
@@ -10,7 +10,6 @@ Este repositório documenta o desenvolvimento do projeto Eduspark, uma simulaç�
 
 Para ajudar o leitor a navegar, explicamos como o projeto está estruturado:
 * **Build** is in the [src folder](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Build).
-* Report chapters are in [doc folder](doc/).
 
 ## Gallery 
 
@@ -162,7 +161,7 @@ backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(10px);
 background-color: rgba(255, 255, 255, 0.1);
 
-
 ## Team
-* Marcelo Pinto [@@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ/))
-* Other team members
+* Marcelo Pinto [@@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ)
+* Carlos Miguel Castro [@GandalfTheTech](https://github.com/GandalfTheTech) 
+
