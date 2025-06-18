@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Definindo o elemento raiz 'plans' -->
+    <xs:element name="plans">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Elemento 'plan' pode ocorrer várias vezes -->
+                <xs:element name="plan" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- Definindo os campos para cada plano -->
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="price" type="xs:decimal"/>
+                            <xs:element name="currency" type="xs:string"/>
+                            <xs:element name="description" type="xs:string"/>
+                            <xs:element name="learning-approach" type="xs:string"/>
+                            
+                            <!-- Definindo o elemento 'features' com várias 'feature' -->
+                            <xs:element name="features">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="feature" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- Definindo o elemento 'student-feedback' -->
+                            <xs:element name="student-feedback">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="feedback" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="student-name" type="xs:string"/>
+                                                    <xs:element name="review" type="xs:string"/>
+                                                    <xs:element name="rating" type="xs:int"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
