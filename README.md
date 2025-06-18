@@ -67,7 +67,7 @@ As ilustrações utilizadas na secção inicial e em algumas áreas visuais do s
 
 ### Repositório GitHub
 O código-fonte do projeto encontra-se disponível em:  
-🔗 [https://github.com/infYYtigXX](https://github.com/infYYtigXX)
+🔗 [https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Build](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Build)
 
 ---
 
@@ -78,10 +78,6 @@ O site encontra-se online em:
 🔗 [https://inf24tig37.netlify.app/](https://inf24tig37.netlify.app/)
 
 ### Instalação e Configuração
-
-**Local:**
-1. Fazer download dos ficheiros HTML, CSS e imagens.
-2. Abrir o ficheiro `index.html` num browser moderno.
 
 **Netlify:**
 A publicação foi realizada através de **upload manual de ficheiros**, dado que a integração com o GitHub apresentou falhas.
