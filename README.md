@@ -1,7 +1,7 @@
 
 # EDUSPARK
 
-Desenvolvido pelo grupo **inf24tig37**: [@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ/), [@GandalfTheTech](https://github.com/GandalfTheTech) (Carlos Miguel Castro)
+Desenvolvido pelo grupo **inf24tig37**: [@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ/), [@GandalfTheTech] AKA (https://github.com/GandalfTheTech) (Carlos Miguel Castro)
 
 ---
 
@@ -103,9 +103,9 @@ Utilizámos os validadores da W3C:
 
 
 **Capturas de validação disponíveis aqui:**  
-🖼️ [Validação HTML](#link-html-valido)  
-🖼️ [Validação CSS](#link-css-valido)  
-🖼️ [Validação XML & XSD](#link-xml-valido)  
+🖼️ [Validação HTML](https://github.com/MarceloCostaOBJ/inf24tig37/blob/main/Gallery/Validation/HTML.png)  
+🖼️ [Validação CSS](https://github.com/MarceloCostaOBJ/inf24tig37/blob/main/Gallery/Validation/CSS.png)  
+🖼️ [Validação XML & XSD](https://github.com/MarceloCostaOBJ/inf24tig37/blob/main/Gallery/Validation/XML_XSD.png)  
 
 ### Explicação Técnica da Validação
 
