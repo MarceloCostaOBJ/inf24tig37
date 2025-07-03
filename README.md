@@ -99,14 +99,13 @@ Utilizámos os validadores da W3C:
 
 - [Validador HTML](https://validator.w3.org/)  
 - [Validador CSS](https://jigsaw.w3.org/css-validator/)
-- [Validador XML](https://www.xmlvalidation.com/)
-- [Validador XSD](https://www.freeformatter.com/xml-validator-xsd.html)
+- [Validador XML](https://www.freeformatter.com/)
+
 
 **Capturas de validação disponíveis aqui:**  
 🖼️ [Validação HTML](#link-html-valido)  
 🖼️ [Validação CSS](#link-css-valido)  
-🖼️ [Validação XML](#link-xml-valido)  
-🖼️ [Validação XSD](#link-xsd-valido)
+🖼️ [Validação XML & XSD](#link-xml-valido)  
 
 ### Explicação Técnica da Validação
 
