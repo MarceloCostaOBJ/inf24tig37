@@ -1,159 +1,163 @@
+
 # EDUSPARK
 
-Developed by Group inf24tig37 : [@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ/), [@GandalfTheTech](https://github.com/GandalfTheTech) AKA Carlos Miguel Castro 
-
-## Short theme description
-
-Este repositório documenta o desenvolvimento do projeto Eduspark, uma simulação de plataforma educativa interativa. O objetivo principal foi criar um conjunto de páginas web informativas com design moderno, funcionalidades básicas de navegação e estrutura organizada.
-
-## Repository organization
-
-Para ajudar o leitor a navegar, explicamos como o projeto está estruturado:
-* **Build** is in the [src folder](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Build).
-
-## Gallery 
-
- [Galley](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/) 
-
-## Technologies
-
-_Indicate the technologies you have used in this assignment. Please provide links for the user to read more about those technologies._
-* XML
-* HTML5 + CSS3
-
-# Relatório do Projeto: EDUSPARK
-
-## 1. Project Presentation – Apresentação do Projeto
-
-### Tema
-Este projeto foi desenvolvido no âmbito da unidade curricular de Tecnologias Web, com o objetivo de criar um site educativo com base em HTML5, CSS3 e, opcionalmente, JavaScript.
-
-### Proposta
-Criámos um site chamado **EDUSPARK**, dedicado à promoção de cursos online de inglês, acessível e moderno, composto por cinco páginas estáticas: Home, About, Prices, FAQ e Sign Up.
-
-### Estrutura do Site
-O site inclui:
-- Um cabeçalho fixo comum a todas as páginas;
-- Layout responsivo com estilos modernos e uso de `flexbox`;
-- Imagens, tabelas, listas aninhadas, e textos destacados;
-- Formulário funcional (com validações `required`);
-- Link para download de um documento XML com os planos de subscrição.
-
-### Justificação das Tecnologias
-Optámos por **não incluir JavaScript** para manipulação dinâmica do DOM, focando na implementação completa de todos os **requisitos mínimos** com animações CSS3 e semântica HTML5.
-
-### Animações CSS3 Utilizadas
-- `@keyframes float`: aplicado às imagens na `index.html` e nos testemunhos na `about.html`;
-- `hover + transform + scale`: aplicado nas `pricing cards` na `prices.html`;
-- `pulse-border`: aplicado ao painel de estatísticas na `about.html`.
+Desenvolvido pelo grupo **inf24tig37**: [@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ/), [@GandalfTheTech](https://github.com/GandalfTheTech) (Carlos Miguel Castro)
 
 ---
 
-## 2. User Interface – Interface com o Utilizador
+## Descrição do Tema
 
-### Sketches e Wireframes
-Durante a fase de planeamento, desenvolvemos os sketches e o sitemap da aplicação, que serviram de base à construção da interface final. As imagens encontram-se organizadas numa galeria e estão disponíveis nos seguintes ficheiros:
+Este repositório documenta o desenvolvimento do projeto **EDUSPARK**, uma simulação de plataforma educativa interativa. O objetivo principal foi criar um conjunto de páginas web informativas com design moderno, funcionalidades básicas de navegação e estrutura organizada, respeitando os requisitos da unidade curricular.
 
-- [Sketch da páginas Home](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/SKETCH)
+---
 
-### Galeria do Resultado Final
-A galeria com capturas das páginas finais encontra-se disponível neste link:
+## Organização do Repositório
 
-- [Galeria de Capturas](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/Print)
+Para facilitar a navegação:
+- A **versão final** está na pasta [Build](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Build).
+- A **galeria de imagens** com sketches e capturas está na pasta [Gallery](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/).
+
+---
+
+## Tecnologias Utilizadas
+
+- [HTML5]
+- [CSS3]
+
+
+---
+
+# Relatório do Projeto: EDUSPARK
+
+## 1. Apresentação do Projeto
+
+### Tema
+Desenvolvimento de um website educativo com ênfase na aplicação correta de HTML5 semântico e CSS3 moderno, sem necessidade de JavaScript.
+
+### Proposta
+Criámos o site **EDUSPARK**, focado na promoção de cursos online de inglês, com 5 páginas estáticas:  
+**Home, About, Prices, FAQ e Sign Up**
+
+### Estrutura do Site
+- Cabeçalho fixo (glassmorphism)
+- Layout responsivo com flexbox
+- Imagens com `<figure>` e `<figcaption>`
+- Tabelas com `thead`, `tfoot`, `colspan` e `rowspan`
+- Listas aninhadas
+- Destaques com `<em>`, `<strong>`, `<mark>`
+- Formulário funcional com validações `required`
+- Link para download de ficheiro XML (planos de subscrição)
+
+---
+
+## 2. Interface com o Utilizador
+
+### Sketches & Wireframes
+Desenvolvemos o sitemap e o esboço da interface no início do projeto, disponíveis aqui:
+
+- [Sketch da Página Inicial](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/SKETCH)
+
+### Galeria de Resultados
+Capturas finais de todas as páginas:  
+🔗 [Ver Galeria](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Gallery/Print)
 
 ### Ilustrações
-As ilustrações utilizadas na secção inicial e em algumas áreas visuais do site foram retiradas da plataforma gratuita:  
-🎨 [https://illustrationkit.com/](https://illustrationkit.com/)
+As imagens de apoio (ex: `Tea_main.svg`) foram retiradas de:  
+🎨 [https://illustrationkit.com](https://illustrationkit.com)
 
 ### Repositório GitHub
-O código-fonte do projeto encontra-se disponível em:  
+Código-fonte disponível em:  
 🔗 [https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Build](https://github.com/MarceloCostaOBJ/inf24tig37/tree/main/Build)
 
 ---
 
-## 3. Product – Produto
+## 3. Produto Final
 
-### Ligação para o Site no Netlify
-O site encontra-se online em:  
-🔗 [https://inf24tig37.netlify.app/](https://inf24tig37.netlify.app/)
+### Ligação ao Site Online
+Deploy via Netlify:  
+🌐 [https://inf24tig37.netlify.app/](https://inf24tig37.netlify.app/)
 
-### Instalação e Configuração
+### Instalação
+A publicação foi feita por **upload manual** dos ficheiros `.html` e `.css` na plataforma Netlify.
 
-**Netlify:**
-A publicação foi realizada através de **upload manual de ficheiros**, dado que a integração com o GitHub apresentou falhas.
+### Navegação
+- Menu presente em todas as páginas, com `hover` animado
+- Cabeçalho fixo com efeito de vidro (glassmorphism)
+- Estrutura clara com secções bem identificadas
 
-### Regras de Utilização
-O site é estático e não requer autenticação nem registo. Está disponível publicamente sem limitações de acesso.
-
-### Ajuda à Navegação
-- O **menu de navegação** está presente em todas as páginas, com efeito visual hover.
-- Está fixo no topo com estilo `glassmorphism`, garantindo navegação intuitiva.
-- Os botões têm destaque visual com `hover` e `box-shadow`.
-
-### Validação de Formulários
-- O formulário de inscrição (`signup.html`) utiliza o atributo `required` para todos os campos (`first-name`, `last-name`, `email`).
-- Os tipos de campo (`type="email"`) garantem validação automática nos browsers modernos.
-- Recorremos ao serviço **Formspree** para processar os envios do formulário e recolher todos os endereços de email submetidos pelos utilizadores.
-- Foi também configurado um **redirecionamento para uma página de agradecimento (obrigado.html)** e uma opção de resposta automática.
-
-### Validação HTML e CSS
-Foram utilizados os validadores da W3C:
-
-- [W3C HTML Validator](https://validator.w3.org/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-
-#### Resultado da validação HTML:
-Não foram detetados **erros**.
-
-#### Resultado da validação CSS:
-Não foram detetados **erros críticos**, apenas alguns **alertas**:
-
-- ⚠️ **Linhas 24 e 36**: Uso de variáveis CSS (`--variavel`) que não são estaticamente verificadas.
-  - ✅ Pode ser ignorado com segurança.
-
-- ⚠️ **Linha 80**: Uso da propriedade `-webkit-backdrop-filter` (própria de navegadores WebKit).
-  - ✅ Também pode ser ignorado. Tem suporte nos browsers modernos.
-
-✅ **Conclusão**: O CSS está funcional, moderno e pronto para publicação.
-
-### Cumprimento dos Requisitos
-
-- ✅ 5 páginas HTML5 com marcação semântica (`section`, `article`, `nav`, `footer`, `figure`, `main`, etc.)
-- 
-- ✅ CSS3 externo com:
-
-- ## Cumprimento dos Requisitos – Explicação Técnica Detalhada (PT-PT)
-
-### ✅ 2. CSS3 com seletores de tipo, ID, classe, pseudo-classe (`:hover`, `:focus`) e atributo
-
-- **Ficheiro:** `StyleSignup.css`  
-- **Linhas:** 92–98 e 106–108  
-- **Código:**  
-```css
-.formulario-left input {
-  font-family: 'Arial', sans-serif; 
-  padding: 0.75rem; 
-  font-size: 1rem; 
-  border-radius: 1rem; 
-  border: 6px solid #fff; 
-  outline: none; 
-  background-color: #ffffff; 
-}
-.formulario-left input:focus {
-  border-color: #7c3aed; 
-  box-shadow: 0 0 5px #7c3aed; 
-}
-```
-- **Explicação:**  
-Este bloco mostra o uso de seletores de **classe** (formulario-left), **tipo** (input) e **pseudo-classe** `:focus`. Quando o utilizador clica no campo de input, este muda de cor e aplica uma sombra, destacando-o visualmente e melhorando a experiência de preenchimento.
+### Formulário
+- Campos: `first-name`, `last-name`, `email` com `required`
+- Tipo `email` com validação automática
+- Processado com [Formspree](https://formspree.io/)
+- Redirecionamento automático para `obrigado.html`
 
 ---
 
-### ✅ 3. Pseudo-elementos (`::after`) e combinadores
+## 4. Validação
 
-- **Ficheiro:** `StyleAbout.css`  
-- **Linhas:** 97–101  
-- **Código:**  
+Utilizámos os validadores da W3C:
+
+- [Validador HTML](https://validator.w3.org/)  
+- [Validador CSS](https://jigsaw.w3.org/css-validator/)
+- [Validador XML](https://www.xmlvalidation.com/)
+- [Validador XSD](https://www.freeformatter.com/xml-validator-xsd.html)
+
+**Capturas de validação disponíveis aqui:**  
+🖼️ [Validação HTML](#link-html-valido)  
+🖼️ [Validação CSS](#link-css-valido)  
+🖼️ [Validação XML](#link-xml-valido)  
+🖼️ [Validação XSD](#link-xsd-valido)
+
+### Explicação Técnica da Validação
+
+- ✅ O HTML passou sem erros nos testes W3C.
+- ✅ O CSS passou sem erros críticos. Foram apenas gerados:
+  - ⚠️ *Avisos sobre variáveis CSS (`--variavel`)* que não afetam o funcionamento.
+  - ⚠️ *Avisos sobre `-webkit-backdrop-filter`*, utilizados para garantir compatibilidade com WebKit. Estes também são seguros.
+- ✅ O XML (`planos.xml`) e o XSD (`planos.xsd`) foram validados com sucesso.
+  - O ficheiro XML segue a estrutura definida no XSD e não apresenta erros de validação.
+  - O XSD define os tipos de dados corretamente (ex: `xs:string`, `xs:decimal`, `xs:positiveInteger`) e todas as restrições foram respeitadas.
+
+---
+
+## 5. Cumprimento dos Requisitos
+
+
+## Cumprimento dos Requisitos – Comprovação com Código e Explicação
+
+### ✅ HTML5 semântico (`section`, `nav`, `main`, `figure`, `article`, `footer`, etc.)
+
+- **Ficheiro:** `about.html`
+- **Linha:** 49
+```html
+<section id="section2">
+```
+- **Explicação:**  
+Utilização de `<section>` para estruturar semanticamente a página. Identifica uma secção temática com conteúdos relacionados.
+
+---
+
+### ✅ CSS3 externo com:
+
+#### • Seletores de tipo, ID, classe, pseudo-classe (`:hover`, `:focus`)
+
+- **Ficheiro:** `StyleSignup.css`
+- **Linhas:** 92–98, 106–108
+```css
+.formulario-left input:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 5px #7c3aed;
+}
+```
+- **Explicação:**  
+Quando o campo de input ganha foco (`:focus`), o contorno muda para realçar visualmente a interação.
+
+---
+
+#### • Pseudo-elementos (`::after`) e combinadores
+
+- **Ficheiro:** `StyleAbout.css`
+- **Linhas:** 97–101
 ```css
 .nav-links a::after {
   content: "";
@@ -167,144 +171,230 @@ Este bloco mostra o uso de seletores de **classe** (formulario-left), **tipo** (
 }
 ```
 - **Explicação:**  
-Este pseudo-elemento `::after` adiciona uma barra animada de sublinhado nos links de navegação. A linha cresce suavemente ao passar o rato, criando um efeito visual elegante. É também um exemplo de **combinador**: `.nav-links a`.
+O `::after` adiciona dinamicamente um sublinhado animado após os links de navegação, com uso de combinador `a::after`.
 
 ---
 
-### ✅ 4. Fundo com imagem (`Back_MainTOTAL.jpg`) e cores
+#### • Fundo com imagem (`Back_MainTOTAL.jpg`)
 
-- **Ficheiro:** `StyleIndex.css`  
-- **Linha:** 30  
-- **Código:**  
+- **Ficheiro:** `StyleIndex.css`
+- **Linha:** 30
 ```css
 body.about-page {
   background: url('Back_MainTOTAL.jpg') no-repeat center/cover;
-  background-attachment: fixed;
-  font-family: 'Montserrat', sans-serif;
-  color: #111827;
-  line-height: 1.6;
 }
 ```
 - **Explicação:**  
-Este estilo aplica uma **imagem de fundo** fixa que cobre todo o ecrã (`cover`) e mantém-se estática durante o scroll. O visual é enriquecido com fonte personalizada e cor escura para o texto.
+Define imagem de fundo aplicada à página com cobertura total e fixação ao scroll.
 
 ---
 
-### ✅ 5. Lista formatada, botão com `hover`, flutuação e posicionamento
+#### • Lista formatada, botão com `hover`, flutuação e `position`
 
-- **Ficheiro:** `StyleIndex.css`  
-- **Linhas:** 123–125 (imagem), 141–147 (botão)  
-- **Código:**  
+- **Ficheiro:** `StyleIndex.css`
+- **Linhas:** 123–125, 141–147
 ```css
 .hero-illustration img {
   animation: float 6s ease-in-out infinite;
 }
-
-@keyframes float {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-10px); }
-  100% { transform: translateY(0); }
-}
-
 .btn:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 ```
 - **Explicação:**  
-A imagem flutua suavemente com a animação `float`, dando um toque dinâmico à secção principal. O botão `.btn` ganha uma sombra ao passar o rato (`:hover`), destacando-se na página. Estes efeitos melhoram a estética e a interatividade do site.
+Imagem com animação contínua de flutuação (`float`) e botão com destaque ao passar o rato (`:hover`).
 
 ---
 
-### ✅ 6. Responsividade com `@media` (versão mobile e desktop)
+#### • Responsividade via `@media`
 
-- **Ficheiro:** `StyleAbout.css`  
-- **Linhas:** 102–114  
-- **Código:**  
+- **Ficheiro:** `StyleAbout.css`
+- **Linhas:** 102–114
 ```css
 @media (max-width: 768px) {
   .header-inner {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-area {
-    width: 100%;
-    overflow-x: auto;
   }
 }
 ```
 - **Explicação:**  
-Através da `@media query`, o layout adapta-se automaticamente para dispositivos com ecrã mais pequeno (até 768px), tornando o cabeçalho vertical e garantindo boa usabilidade em smartphones e tablets.
+Adapta o layout para dispositivos móveis reorganizando elementos de navegação.
 
 ---
 
-### ✅ 7. Animações: `float`, `pulse-border`, `hover transform`
+#### • Animações (`float`, `pulse-border`, `transform`)
 
-- **Ficheiro:** `StyleAbout.css`  
-- **Linhas:** 194–207 e 246–248  
-- **Código:**  
+- **Ficheiro:** `StyleAbout.css`
+- **Linhas:** 194–207
 ```css
 @keyframes pulse-border {
-  0% { box-shadow: 0 0 12px rgba(124, 58, 237, 0.3), inset 0 0 8px rgba(124, 58, 237, 0.05); }
-  50% { box-shadow: 0 0 20px rgba(124, 58, 237, 0.2), inset 0 0 14px rgba(124, 58, 237, 0.1); }
-  100% { box-shadow: 0 0 12px rgba(124, 58, 237, 0.3), inset 0 0 8px rgba(124, 58, 237, 0.05); }
-}
-
-.stat-card:hover {
-  transform: translateY(-5px);
+  0% { box-shadow: 0 0 12px ... }
+  50% { box-shadow: 0 0 20px ... }
+  100% { box-shadow: 0 0 12px ... }
 }
 ```
 - **Explicação:**  
-A animação `pulse-border` faz o contorno do painel de estatísticas "vibrar", como se estivesse a pulsar. Já o `:hover` nas `.stat-card` desloca o cartão para cima, criando um efeito moderno e intuitivo ao utilizador.
+Aplica um efeito visual animado ao contorno de elementos com `box-shadow` pulsante.
 
 ---
 
-  - ✅ seletores tipo, ID, classe, pseudo-classe (`:hover`, `:focus`) e atributo
-  - 
-  - ✅ pseudo-elementos (`::after`) e combinadores
-  - 
-  - ✅ fundo com imagem (`Back_MainTOTAL.jpg`) e cores
-  - 
-  - ✅ lista formatada, botão com `hover`, flutuação e posicionamento
-  - 
-  - ✅ responsividade via `@media` (mobile e desktop)
-  - 
-  - ✅ animações: `float`, `pulse-border`, `hover transform`
-  - 
-  - ✅ esconder elemento: `display: none` em media query (mobile)
-  - 
-  - ✅ substituição de texto por imagem: ex. avatar nos testemunhos
-- ✅ Imagens com `img`, `figure` e `figcaption`
-- 
-- ✅ Lista aninhada (`FAQ`)
-- 
-- ✅ Destaque com `em`, `strong`, `mark` e CSS
-- 
-- ✅ Tabela com `thead`, `tbody`, `tfoot`, `rowspan`, `colspan` (em `faq.html`)
-- 
-- ✅ Formulário com campos obrigatórios (`signup.html`)
-- 
-- ✅ Ligação para download de XML (`prices.html`)
-- 
-- ✅ Documento XML + XSD (validado)
+#### • `display: none` condicional por `@media`
+
+- **Ficheiro:** `StyleAbout.css` ou `StyleIndex.css`
+```css
+@media (max-width: 768px) {
+  .elemento-mobile-only {
+    display: none;
+  }
+}
+```
+- **Explicação:**  
+Oculta elementos que só devem aparecer em desktop.
 
 ---
 
-Efeito Visual de Glassmorphism com AI
+#### • Substituição de texto por imagem (`.avatar`)
 
-Para simular o efeito visual conhecido como **glassmorphism** (vidro desfocado), recorremos a ferramentas de design com suporte a **inteligência artificial (AI)** que nos ajudaram a gerar rapidamente o código CSS necessário, com base em boas práticas modernas de UI.
+- **Ficheiro:** `about.html`
+- **Linha:** 89
+```html
+<img class="avatar" src="avatar1.png" alt="Avatar 1">
+```
+- **Explicação:**  
+Imagem circular usada no lugar de texto para identificar testemunhos de utilizadores.
 
-O estilo foi inspirado em sistemas de design como o **Fluent Design da Microsoft**, **macOS Big Sur** e várias bibliotecas LLMS (Low-Level Modern Styling).
+---
 
-A geração do estilo foi realizada com apoio de ferramentas como:
+### ✅ Imagens com `<img>`, `<figure>`, `<figcaption>`
 
-- https://css.glass  
-- https://getcssscan.com/css-glassmorphism
+- **Ficheiro:** `about.html`
+- **Linha:** 90
+```html
+<figcaption class="testimonial-text">Ricardo</figcaption>
+```
+- **Explicação:**  
+Elemento semântico para identificar a legenda associada à imagem do utilizador.
 
-O código resultante foi aplicado a elementos como o **cabeçalho fixo** (`.modern-header`), o **painel de estatísticas** (`about.html`) e os **cartões de testemunhos**.
-Além disso, para a implementação das **animações em CSS** e do sistema de **envio de emails via Formspree**, também foram consultadas fontes online para assegurar a correta integração e compatibilidade com navegadores modernos.
+---
 
-## Team
-* Marcelo Pinto [@@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ)
-* Carlos Miguel Castro [@GandalfTheTech](https://github.com/GandalfTheTech) 
+### ✅ Lista aninhada
 
+- **Ficheiro:** `faq.html`
+- **Linhas:** 63–69
+```html
+<ul>
+  <li>Registration
+    <ul>
+      <li>Fill in all the required fields.</li>
+    </ul>
+  </li>
+</ul>
+```
+- **Explicação:**  
+Demonstração de lista dentro de outra lista, usada para detalhar passos ou estruturas.
+
+---
+
+### ✅ Destaques com `<em>`, `<strong>`, `<mark>`
+
+- **Ficheiro:** `faq.html`
+- **Linha:** 77
+```html
+<p><em>Online education</em> has grown... <strong>important</strong> ... <mark>offers flexibility</mark></p>
+```
+- **Explicação:**  
+Texto destacado com semântica e estilo visual através de HTML e CSS.
+
+---
+
+### ✅ Tabela com `thead`, `tbody`, `tfoot`, `rowspan`, `colspan`
+
+- **Ficheiro:** `faq.html`
+- **Linhas:** 26–41
+```html
+<thead>
+  <tr>
+    <th rowspan="2">Question</th>
+    <th colspan="2">Answers</th>
+  </tr>
+</thead>
+```
+- **Explicação:**  
+Uso correto de cabeçalho, agrupamento de colunas e rodapé em tabelas de FAQ.
+
+---
+
+### ✅ Formulário com campos obrigatórios
+
+- **Ficheiro:** `signup.html`
+- **Linhas:** 24–36
+```html
+<input type="text" id="first-name" name="first-name" required>
+```
+- **Explicação:**  
+Campo com atributo `required`, impedindo envio sem preenchimento.
+
+---
+
+### ✅ Ligação para download de ficheiro XML
+
+- **Ficheiro:** `prices.html`
+- **Linha:** 52
+```html
+<a href="planos.xml" download="planos.xml" class="select-btn">More Info</a>
+```
+- **Explicação:**  
+Link com atributo `download` que permite ao utilizador guardar localmente o ficheiro XML.
+
+---
+
+### ✅ Documento XML e XSD válidos
+
+- **Ficheiro:** `planos.xml` e `planos.xsd`
+```xml
+<xs:element name="preco" type="xs:decimal"/>
+```
+- **Explicação:**  
+Ficheiro XML estruturado segundo um schema (XSD) que valida tipo de dados, elementos obrigatórios, restrições e hierarquia.
+
+
+Requisitos obrigatórios implementados e comprovados:
+
+- ✅ HTML5 semântico (`section`, `nav`, `main`, `figure`, `article`, `footer`, etc.)
+- ✅ CSS3 externo com:
+  - seletores de tipo, ID, classe, pseudo-classe (`:hover`, `:focus`)
+  - pseudo-elementos (`::after`) e combinadores
+  - fundo com imagem (`Back_MainTOTAL.jpg`)
+  - lista formatada, botão com `hover`, flutuação e `position`
+  - responsividade via `@media`
+  - animações (`float`, `pulse-border`, `transform`)
+  - `display: none` condicional por `@media`
+  - substituição de texto por imagem (`.avatar`)
+- ✅ Imagens com `<img>`, `<figure>`, `<figcaption>`
+- ✅ Lista aninhada (ver `faq.html`)
+- ✅ Destaques com `<em>`, `<strong>`, `<mark>`
+- ✅ Tabela com `thead`, `tbody`, `tfoot`, `rowspan`, `colspan`
+- ✅ Formulário com campos obrigatórios (`required`)
+- ✅ Ligação para download de ficheiro XML (`prices.html`)
+- ✅ Documento XML e XSD válidos
+
+---
+
+## . Glassmorphism e Estilo Visual
+
+Usámos geradores e bibliotecas para criar efeitos como:
+
+- `backdrop-filter` + `blur` para cabeçalho e cartões
+- `pulse-border` animado no painel estatístico
+- `hover transform` nos cartões de preços
+
+Fontes utilizadas:
+- [https://css.glass](https://css.glass)
+- [https://getcssscan.com/css-glassmorphism](https://getcssscan.com/css-glassmorphism)
+
+---
+
+## Equipa
+
+- **Marcelo Pinto** [@MarceloCostaOBJ](https://github.com/MarceloCostaOBJ)  
+- **Carlos Miguel Castro** [@GandalfTheTech](https://github.com/GandalfTheTech)
